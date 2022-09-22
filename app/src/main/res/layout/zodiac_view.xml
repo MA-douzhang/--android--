@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_zodiac"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20dp"/>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:id="@+id/img_zodiac"
+               android:src="@drawable/cattle"></ImageView>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="生肖寓意"
+              android:gravity="center"
+              android:textSize="20dp"></TextView>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/text_zodiac_introduce"
+              android:text=""
+              android:textSize="15dp"></TextView>
+
+</LinearLayout>

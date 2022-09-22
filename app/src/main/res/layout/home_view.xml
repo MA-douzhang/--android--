@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:text="生肖查询"
+              android:textSize="30dp"
+              />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="输入您的名字"
+              android:id="@+id/edit_name"/>
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="您的出生年月"
+            android:textSize="20sp"/>
+    <DatePicker
+            android:id="@+id/dataPicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="338dp"
+            android:layout_gravity="center"
+            android:datePickerMode="spinner"
+            tools:ignore="MissingConstraints"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_reach"
+            android:layout_gravity="center"
+            android:text="确定"/>
+</LinearLayout>
